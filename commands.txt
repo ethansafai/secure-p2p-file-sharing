@@ -1,0 +1,3 @@
+python peer-client.py -hostname peer1 -index_server_name localhost -peer_server_port 7001 -username peer1 -password password -file_directory peer1-files -certificate peer1-server.crt -private_key peer1-server.key 
+python peer-client.py -hostname peer2 -index_server_name localhost -peer_server_port 7002 -username peer2 -password password -file_directory peer2-files -certificate peer2-server.crt -private_key peer2-server.key 
+python peer-client.py -hostname peer3 -index_server_name localhost -peer_server_port 7003 -username peer3 -password password -file_directory peer3-files -certificate peer3-server.crt -private_key peer3-server.key
